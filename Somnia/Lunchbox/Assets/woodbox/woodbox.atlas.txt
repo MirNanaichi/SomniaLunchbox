@@ -1,0 +1,101 @@
+
+woodbox.png
+size: 2044,1774
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+woodbox_break_1
+  rotate: true
+  xy: 2, 355
+  size: 379, 1298
+  orig: 2000, 2000
+  offset: 4, 680
+  index: -1
+woodbox_break_2
+  rotate: false
+  xy: 1685, 489
+  size: 357, 1283
+  orig: 2000, 2000
+  offset: 6, 24
+  index: -1
+woodbox_break_3
+  rotate: false
+  xy: 2, 2
+  size: 1305, 351
+  orig: 2000, 2000
+  offset: 23, 1639
+  index: -1
+woodbox_break_4
+  rotate: false
+  xy: 2, 1431
+  size: 1303, 341
+  orig: 2000, 2000
+  offset: 665, 1654
+  index: -1
+woodbox_break_5
+  rotate: false
+  xy: 1307, 496
+  size: 376, 1276
+  orig: 2000, 2000
+  offset: 1618, 709
+  index: -1
+woodbox_break_7
+  rotate: false
+  xy: 2, 736
+  size: 1173, 346
+  orig: 2000, 2000
+  offset: 9, 5
+  index: -1
+woodbox_break_8
+  rotate: false
+  xy: 2, 1084
+  size: 1210, 345
+  orig: 2000, 2000
+  offset: 777, 6
+  index: -1
+
+woodbox2.png
+size: 1335,1486
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+woodbox_break_10
+  rotate: true
+  xy: 2, 2
+  size: 1111, 1331
+  orig: 2000, 2000
+  offset: 516, 342
+  index: -1
+woodbox_break_6
+  rotate: true
+  xy: 2, 1115
+  size: 369, 1305
+  orig: 2000, 2000
+  offset: 1625, 15
+  index: -1
+
+woodbox3.png
+size: 1314,1132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+woodbox_break_9
+  rotate: true
+  xy: 2, 2
+  size: 1128, 1310
+  orig: 2000, 2000
+  offset: 356, 341
+  index: -1
+
+woodbox4.png
+size: 2004,2004
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+woodbox_break_11
+  rotate: false
+  xy: 2, 2
+  size: 2000, 2000
+  orig: 2000, 2000
+  offset: 0, 0
+  index: -1

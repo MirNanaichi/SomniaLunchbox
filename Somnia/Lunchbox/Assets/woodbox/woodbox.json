@@ -1,0 +1,241 @@
+{
+"skeleton": {
+	"hash": "7X1FByzQy2diDPXnkeCuBBl9f9U",
+	"spine": "3.8.95",
+	"x": -1000,
+	"y": -1000,
+	"width": 2000,
+	"height": 2000,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Front_1", "parent": "root", "length": 251.18, "rotation": -89.75, "x": -1000, "y": 1000 },
+	{ "name": "Front_2", "parent": "root", "length": 250.43, "rotation": 89.88, "x": -1000, "y": -1000 },
+	{ "name": "Back1", "parent": "root", "length": 250.24, "rotation": -89.89, "x": 1000, "y": 1000 },
+	{ "name": "Back_2", "parent": "root", "length": 250.64, "rotation": 89.75, "x": 1000, "y": -1000 },
+	{ "name": "Top_1", "parent": "root", "length": 251.83, "x": -1000, "y": 1000 },
+	{ "name": "Top_2", "parent": "root", "length": 249.98, "rotation": 179.87, "x": 1000, "y": 1000 },
+	{ "name": "Bottom_1", "parent": "root", "length": 250.83, "x": -1000, "y": -1000 },
+	{ "name": "Bottom_2", "parent": "root", "length": 250.16, "rotation": 179.89, "x": 1000, "y": -1000 },
+	{ "name": "Inside_1", "parent": "root", "length": 249.25, "rotation": 0.16, "x": -600 },
+	{ "name": "Inside_2", "parent": "root", "length": 249.1, "rotation": 179.8, "x": 600 }
+],
+"slots": [
+	{ "name": "woodbox_break_11", "bone": "root", "attachment": "woodbox_break_11" },
+	{ "name": "woodbox_break_10", "bone": "Inside_2", "attachment": "woodbox_break_10" },
+	{ "name": "woodbox_break_9", "bone": "Inside_1", "attachment": "woodbox_break_9" },
+	{ "name": "woodbox_break_8", "bone": "Bottom_2", "attachment": "woodbox_break_8" },
+	{ "name": "woodbox_break_7", "bone": "Bottom_1", "attachment": "woodbox_break_7" },
+	{ "name": "woodbox_break_6", "bone": "Back_2", "attachment": "woodbox_break_6" },
+	{ "name": "woodbox_break_5", "bone": "Back1", "attachment": "woodbox_break_5" },
+	{ "name": "woodbox_break_4", "bone": "Top_2", "attachment": "woodbox_break_4" },
+	{ "name": "woodbox_break_3", "bone": "Top_1", "attachment": "woodbox_break_3" },
+	{ "name": "woodbox_break_2", "bone": "Front_2", "attachment": "woodbox_break_2" },
+	{ "name": "woodbox_break_1", "bone": "Front_1", "attachment": "woodbox_break_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"woodbox_break_1": {
+				"woodbox_break_1": {
+					"type": "mesh",
+					"uvs": [ 0.00349, 0.01132, 0.18233, 0.17733, 0.19102, 0.65989, 0.00238, 0.65986 ],
+					"triangles": [ 3, 0, 1, 3, 1, 2 ],
+					"vertices": [ 22.66, 6.89, 356.23, 363.14, 1321.4, 376.37, 1319.72, -0.9 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_2": {
+				"woodbox_break_2": {
+					"type": "mesh",
+					"uvs": [ 0.0033, 0.98764, 0.00405, 0.34657, 0.1812, 0.34777, 0.17941, 0.82688 ],
+					"triangles": [ 3, 1, 2, 3, 0, 1 ],
+					"vertices": [ 24.74, -6.54, 1306.88, -5.36, 1305.23, -359.67, 346.99, -358.09 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_3": {
+				"woodbox_break_3": {
+					"type": "mesh",
+					"uvs": [ 0.01174, 0.00531, 0.66399, 0.00794, 0.66267, 0.18006, 0.17543, 0.1794 ],
+					"triangles": [ 3, 0, 1, 2, 3, 1 ],
+					"vertices": [ 23.48, -10.62, 1327.98, -15.89, 1325.33, -360.13, 350.87, -358.8 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_4": {
+				"woodbox_break_4": {
+					"type": "mesh",
+					"uvs": [ 0.98356, 0.00662, 0.33365, 0.00299, 0.33263, 0.17265, 0.81473, 0.16969 ],
+					"triangles": [ 3, 1, 0, 2, 1, 3 ],
+					"vertices": [ 29.63, 13.31, 1329.46, 9.06, 1330.71, 348.39, 366.55, 340.24 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_5": {
+				"woodbox_break_5": {
+					"type": "mesh",
+					"uvs": [ 0.99675, 0.00796, 0.99497, 0.64538, 0.80945, 0.64417, 0.81291, 0.17544 ],
+					"triangles": [ 1, 3, 0, 2, 3, 1 ],
+					"vertices": [ 15.91, -6.53, 1290.74, -12.44, 1287.63, -383.46, 350.19, -374.83 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_6": {
+				"woodbox_break_6": {
+					"type": "mesh",
+					"uvs": [ 0.99667, 0.99206, 0.99571, 0.34034, 0.81256, 0.34098, 0.81337, 0.82048 ],
+					"triangles": [ 3, 2, 1, 0, 3, 1 ],
+					"vertices": [ 15.85, 6.73, 1319.28, 14.25, 1316.42, 380.54, 357.43, 374.8 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_7": {
+				"woodbox_break_7": {
+					"type": "mesh",
+					"uvs": [ 0.0046, 0.9959, 0.58854, 0.99748, 0.59099, 0.82459, 0.17666, 0.82617 ],
+					"triangles": [ 1, 3, 2, 0, 3, 1 ],
+					"vertices": [ 9.2, 8.2, 1177.09, 5.03, 1181.98, 350.81, 353.32, 347.67 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_8": {
+				"woodbox_break_8": {
+					"type": "mesh",
+					"uvs": [ 0.99347, 0.99671, 0.39094, 0.99596, 0.3889, 0.82456, 0.81662, 0.82567 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 13.08, -6.57, 1218.13, -5.85, 1222.84, -348.64, 367.39, -347.98 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_9": {
+				"woodbox_break_9": {
+					"type": "mesh",
+					"uvs": [ 0.17871, 0.82651, 0.17856, 0.49939, 0.17842, 0.17499, 0.73556, 0.17677, 0.74171, 0.82949 ],
+					"triangles": [ 1, 2, 3, 4, 0, 1, 4, 1, 3 ],
+					"vertices": [ -44.35, -652.91, -42.87, 1.33, -41.4, 650.14, 1072.88, 643.53, 1081.63, -661.93 ],
+					"hull": 5,
+					"edges": [ 4, 6, 6, 8, 0, 8, 0, 2, 2, 4 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_10": {
+				"woodbox_break_10": {
+					"type": "mesh",
+					"uvs": [ 0.81248, 0.50014, 0.81162, 0.82853, 0.26085, 0.8242, 0.25825, 0.16359, 0.81335, 0.16618 ],
+					"triangles": [ 0, 3, 4, 2, 3, 0, 1, 2, 0 ],
+					"vertices": [ -24.96, 0.19, -25.5, 656.98, 1076.07, 652.11, 1085.81, -669.1, -24.41, -667.72 ],
+					"hull": 5,
+					"edges": [ 2, 4, 4, 6, 6, 8, 2, 0, 0, 8 ],
+					"width": 2000,
+					"height": 2000
+				}
+			},
+			"woodbox_break_11": {
+				"woodbox_break_11": {
+					"type": "mesh",
+					"uvs": [ 0.49974, 1, 0, 1, 0, 0.49981, 0, 0, 0.50019, 0, 1, 0, 1, 1 ],
+					"triangles": [ 2, 3, 4, 0, 1, 2, 4, 0, 2, 4, 5, 6, 0, 4, 6 ],
+					"vertices": [ -0.51, -1000, -1000, -1000, -1000, 0.39, -1000, 1000, 0.37, 1000, 1000, 1000, 1000, -1000 ],
+					"hull": 7,
+					"edges": [ 10, 12, 2, 0, 0, 12, 6, 8, 8, 10, 2, 4, 4, 6 ],
+					"width": 2000,
+					"height": 2000
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"Front_1": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333 },
+					{ "time": 0.3333, "angle": 29.75 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333 }
+				]
+			},
+			"Front_2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333 },
+					{ "time": 0.3333, "angle": -30.88 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"woodbox_break_9": {
+					"woodbox_break_9": [
+						{ "curve": "stepped" },
+						{ "time": 0.2333 },
+						{
+							"time": 0.3333,
+							"offset": 2,
+							"vertices": [ 375.74103, 24.3012 ]
+						}
+					]
+				},
+				"woodbox_break_10": {
+					"woodbox_break_10": [
+						{ "curve": "stepped" },
+						{ "time": 0.2333 },
+						{
+							"time": 0.3333,
+							"vertices": [ -303.9107, -1.04438, -303.9107, -1.04438, -303.9107, -1.04438, -303.9107, -1.04438, -303.9107, -1.04438 ]
+						}
+					]
+				},
+				"woodbox_break_11": {
+					"woodbox_break_11": [
+						{ "curve": "stepped" },
+						{ "time": 0.2333 },
+						{
+							"time": 0.3333,
+							"offset": 4,
+							"vertices": [ 586.7189, -12.66309 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}
